@@ -29,7 +29,8 @@ npm install
 ### Authentication Setup
 
 > **Note:** The test account has 2FA enabled. To automate login, a stored authentication state is used.  
-> **Before running the tests for the first time, you must log in manually to save the authentication state:**
+> **Before running the tests for the first time, you must log in manually to save the authentication state.**
+> **Create the config folder and add an empty file 'auth.json' before running the below command:**
 
 ```sh
 npx playwright open --save-storage=config/auth.json https://qahw.kandji.io/
