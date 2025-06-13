@@ -49,6 +49,7 @@ npx playwright test tests/smoke.spec.js
 ```
 
 ## Project Structure
+> **Note:** Create the config/auth.json file and the screenshots folder if needed 
 
 ```
 .
